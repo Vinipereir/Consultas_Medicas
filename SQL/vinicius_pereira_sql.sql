@@ -52,6 +52,13 @@ SELECT * from medicos;
     INSERT INTO consultas (paciente_id, medico_id, data_consulta, hora_consulta) VALUES (4, 2, '2020-01-02', '13:30:00');
     INSERT INTO consultas (paciente_id, medico_id, data_consulta, hora_consulta) VALUES (5, 3, '2020-01-03', '15:45:00');
 
+
+    DROP TABLE consultas;
+
+    DROP TABLE medicos;
+
+    DROP TABLE pacientes;
+
     SELECT 
     p.nome AS nome_paciente,
     m.nome AS nome_medico,
